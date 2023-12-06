@@ -1,0 +1,27 @@
+{
+  "name": "lacruz/cpt",
+  "description": "Adds CPTs to the project.",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "custom post type"
+  ],
+  "homepage": "https://github.com/lacruzwebdev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ignacio Lacruz"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "php": ">=5.3.2",
+    "jjgrainger/posttypes": "^2.0",
+    "stoutlogic/acf-builder": "^1.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "PRX\\CPT\\": "app/"
+    }
+  }
+}
